@@ -1,8 +1,12 @@
 const express = require("express");
 const app = express();
 
+const PORT = process.env.PORT || 3000;
+
 app.get("/", (req, res) => {
-  res.send("CI/CD Pipeline Working ✅");
+  res.send("CI/CD Pipeline Working on Railway ✅");
 });
 
-app.listen(3000, () => console.log("Running on 3000"));
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
