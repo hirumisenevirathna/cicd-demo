@@ -86,4 +86,4 @@ CI Steps:
 
 ✅ CI/CD Flow (Simple Explanation)
 
-Code Push → GitHub Actions (CI) → Docker Build → Railway Deploy → Live URL
+Code Push → GitHub Actions (CI) → Docker Build → Railway Deploy (CD) → Live URL
