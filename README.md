@@ -87,3 +87,13 @@ CI Steps:
 ✅ CI/CD Flow (Simple Explanation)
 
 Code Push → GitHub Actions (CI) → Docker Build → Railway Deploy (CD) → Live URL
+
+#### ✅ Where the Live Application URL comes from
+
+👉 It is given by Railway, not GitHub.
+
+Railway automatically creates a Generated Domain when your app is running.
+
+<img width="1902" height="857" alt="image" src="https://github.com/user-attachments/assets/089a044a-e7fa-459f-98a6-912a7986c101" />
+<img width="1909" height="860" alt="image" src="https://github.com/user-attachments/assets/d029e130-6773-4e1b-a552-8980d556b176" />
+
